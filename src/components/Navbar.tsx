@@ -32,7 +32,7 @@ export function Navbar() {
         const resumeUrl = "https://drive.google.com/file/d/1abkHiENaG4NbANo2VutI9rwwbZn1ZafJ/view?usp=drive_link"
         const link = document.createElement("a")
         link.href = resumeUrl
-        link.download = "Shubham_Resume.pdf"
+        link.download = "Shubham_Malik_Resume.pdf"
         document.body.appendChild(link)
         link.click()
         document.body.removeChild(link)
