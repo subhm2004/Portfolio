@@ -8,6 +8,15 @@ import Image from "next/image"
 const projects = [
     {
         id: 1,
+        title: "AI-Tutor - Multi-Agent AI Tutoring Platform",
+        description: "AI Tutor is a comprehensive learning platform featuring interactive chat-based tutoring powered by AI. It supports real-time responses, Markdown and math rendering, theme support, chat history management, and multi-agent tutoring for topics like Math and Physics.",
+        image: "/77.png",
+        techStack: ["Next.js", "React", "Tailwind CSS","Gemini API", "Framer Motion", "Flask", "Python", "Radix UI", "next-themes", "TypeScript"],
+        liveUrl: "https://multi-ai-tutor.vercel.app/",
+        githubUrl: "https://github.com/subhm2004/AI-Tutor",
+    },
+    {
+        id: 2,
         title: "WiseWallet - Personal Finance Dashboard",
         description: "WiseWallet - AI-Powered Finance Platform 🚀💰 WiseWallet is a modern finance management platform built with Next.js, Supabase, Prisma, Inngest, ArcJet, and ShadCN UI. It leverages AI for receipt scanning, personalized financial insights, and automated transaction tracking.",
         image: "https://ik.imagekit.io/abc5342/Screenshot%202025-06-30%20at%2011.43.59%E2%80%AFPM.png?updatedAt=1751307263503&tr=w-1200%2Ch-628%2Cfo-auto",
@@ -16,7 +25,7 @@ const projects = [
         githubUrl: "https://github.com/subhm2004/WiseWallet",
     },
      {
-        id: 2,
+        id: 3,
         title: "VibeDub - AI Video Dubbing",
         description: "VibeDub is an intelligent video dubbing tool powered by Deepgram and Google Translate. It transcribes video audio with high accuracy, translates it to your target language, and generates natural-sounding speech, making multilingual content creation seamless and scalable for global audiences.",
         image: "https://ik.imagekit.io/abc5342/Screenshot%202025-07-01%20at%2012.07.07%E2%80%AFAM.png?updatedAt=1751308689028",
@@ -25,7 +34,16 @@ const projects = [
         githubUrl: "https://github.com/subhm2004/VibeDub",
     },
     {
-        id: 3,
+        id: 4,
+        title: "Evolving Images with Genetic Algorithm",
+        description: "This project uses a Genetic Programming algorithm to evolve images that resemble a target image. It employs selection, crossover, and mutation to iteratively refine images, generating visually appealing results and mimicking natural selection.",
+        image: "/78.png",
+        techStack: ["Python", "PIL (Pillow)", "NumPy", "Pandas", "Matplotlib", "Seaborn", "colour", "IPython.display"],
+        liveUrl: "https://github.com/subhm2004/Image_recreation_genetic_algorithm",
+        githubUrl: "https://github.com/subhm2004/Image_recreation_genetic_algorithm",
+    },
+    {
+        id: 5,
         title: "YouTube Summarizer",
         description: "A web app that analyzes YouTube playlists to calculate total watch time at various speeds and generate AI-based summaries using the Gemini API. Supports custom inputs, theme switching, and exports in PDF, TXT, and DOCX formats. Built with React, TypeScript, and Tailwind CSS.",
         image: "https://ik.imagekit.io/abc5342/Screenshot%202025-06-30%20at%2011.52.31%E2%80%AFPM.png?updatedAt=1751307766990",
@@ -34,7 +52,7 @@ const projects = [
         githubUrl: "https://github.com/subhm2004/YouTube_Summarizer",
     },
      {
-        id: 4,
+        id: 6,
         title: "MarkSmith - Markdown Editor",
         description: "MarkSmith is a modern, feature-packed Markdown editor built with React. It offers a smooth, real-time editing and previewing experience, ideal for developers, writers, and content creators. With its clean interface and responsive design, MarkSmith makes writing Markdown easy, efficient, and enjoyable across various devices and use cases.",
         image: "/1.png",
@@ -43,7 +61,7 @@ const projects = [
         githubUrl: "https://github.com/subhm2004/MarkSmith",
     },
      {
-        id: 5,
+        id: 7,
         title: "Codeforces Problem Recommender",
         description: "The Codeforces Problem Recommender is a smart tool that suggests personalized programming problems based on difficulty and tags. It uses the Codeforces API to provide efficient practice recommendations, helping users focus on specific topics and skill levels. Ideal for targeted learning and improving competitive programming performance.",
         image: "/2.png",
@@ -52,7 +70,7 @@ const projects = [
         githubUrl: "https://github.com/subhm2004/Code_forces_problem_recommender",
     },
      {
-        id: 6,
+        id: 8,
         title: "Virtual Mouse",
         description: "Virtual Mouse is a Python project that uses MediaPipe and OpenCV to recognize hand gestures in real time. It lets you control your computer’s mouse and keyboard using just your hands. Fully customizable, it’s ideal for touchless control, accessibility solutions, and gesture-based user interfaces.",
         image: "/4.png",
