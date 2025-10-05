@@ -1,6 +1,6 @@
 "use client"
 
-import { motion, useScroll, useSpring, useTransform } from "motion/react"
+import { motion, useScroll, useSpring, useTransform, easeOut } from "framer-motion"
 import React, { useRef, useState } from "react"
 import {DockerIcon,ExcelIcon, PythonIcon,CIcon, CPPIcon, CSSIcon, ExpressIcon, GithubIcon, GitIcon, GraphQLIcon, HTMLIcon, JavaIcon, JavaSciptIcon, MongoDBIcon, NextJsIcon, NodeJsIcon, PostgresIcon, PostmanIcon, PrismaIcon, ReactIcon, TailwindIcon, TypeScriptIcon, MySQLIcon, ShadCNIcon , VsCodeIcon } from "./ui/icons"
 
@@ -100,7 +100,7 @@ export default function Skills() {
             scale: 1,
             transition: {
                 duration: 0.3,
-                ease: "easeOut",
+                ease: easeOut, // ✅ correct
             },
         },
     }
